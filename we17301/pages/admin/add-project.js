@@ -11,7 +11,10 @@ const AdminAddProjectPage = () => {
         name: newName.value,
         img: "https://picsum.photos/400/400",
       };
-      addProject(formData).then((data) => router.navigate("/admin/projects"));
+      addProject(formData).then((data) => {
+        history.replaceState("", null, "/admin/projects");
+        router.resolve();
+      });
     });
   });
 

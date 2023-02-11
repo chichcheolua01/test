@@ -16,6 +16,7 @@ const AdminEditProjectsPage = ({ id }) => {
   useEffect(() => {
     const form = document.getElementById("form-add");
     const projectName = document.getElementById("project-name");
+    const projectContent = document.getElementById("project-content");
 
     form.addEventListener("submit", (e) => {
       e.preventDefault();
@@ -23,6 +24,7 @@ const AdminEditProjectsPage = ({ id }) => {
       const formData = {
         id,
         name: projectName.value,
+        content: projectContent.value,
         img: "https://picsum.photos/400/400",
       };
 
@@ -40,6 +42,10 @@ const AdminEditProjectsPage = ({ id }) => {
             <div class="form-group mb-3">
                 <label for="" class="form-label">Tên dự án</label>
                 <input type="text" class="form-control" id="project-name" value="${data.name}" />
+            </div>
+            <div class="form-group mb-3">
+                <label for="" class="form-label">Nội dung dự án</label>
+                <input type="text" class="form-control" id="project-content" value="${data.content}" />
             </div>
             <div class="form-group">
                 <button class="btn btn-primary">Thêm dự án</button>

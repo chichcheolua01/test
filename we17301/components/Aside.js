@@ -16,14 +16,15 @@ const Aside = () => {
           />
         </div>
         <div class="flex justify-center">
-          <div class="w-full flex flex-col space-y-[10px]">
+          <div class="w-full flex flex-col space-y-[10px] pl-[10px]">
+          <p class="text-sm">Admin tools</p>
           ${data
             .map(
               (config) => `<a href="${config.path}" class="no-underline">
               <div
-                class="flex justify-center items-center bg-slate-200 py-[10px] rounded-lg"
+                class="flex justify-start items-center py-[10px] rounded-lg"
               >
-                <div class="text-cyan-600 font-bold h-full">${config.name}</div>
+                <div class="hover:text-cyan-500 text-gray-500 flex items-center font-nm h-full space-x-[5px]"> <p>${config.icon}</p><p>${config.name}</p> </div>
               </div>
             </a>`
             )
