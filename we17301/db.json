@@ -1,10 +1,10 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "How to write a simple website?",
+      "id": "2",
+      "title": "How to find a girl friend?",
       "content": "ABC XYZ qjehajdhhwqe qwekjwhdjha qwekjwhdjha dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQ BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQxcn F89AYNMiD4YtEcYekBt9Q7nj0DiId2XH2Ng2PHM54qi5oPrQ8luuzGszqi",
-      "post-fearture-image": {
+      "postFeartureImage": {
         "img1": "post1-img1.png",
         "img2": "post1-img2.png",
         "img3": "post1-img3.png",
@@ -13,22 +13,7 @@
       "createAt": "12/3/2022",
       "author": "Tran Trung Nghia",
       "except": "",
-      "postCategoryId": "2"
-    },
-    {
-      "id": "2",
-      "title": "How to find a girl friend?",
-      "content": "ABC XYZ qjehajdhhwqe qwekjwhdjha qwekjwhdjha dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQ BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQxcn F89AYNMiD4YtEcYekBt9Q7nj0DiId2XH2Ng2PHM54qi5oPrQ8luuzGszqi",
-      "post-fearture-image": {
-        "img1": "post2-img1.png",
-        "img2": "post2-img2.png",
-        "img3": "post2-img3.png",
-        "img4": "post2-img4.png"
-      },
-      "createAt": "12/3/2022",
-      "author": "Tran Trung Nghia",
-      "except": "",
-      "postCategoryId": "1"
+      "category": "1"
     },
     {
       "id": "3",
@@ -43,7 +28,7 @@
       "createAt": "12/3/2022",
       "author": "Tran Trung Nghia",
       "except": "",
-      "postCategoryId": "3"
+      "category": "3"
     }
   ],
   "projects": [
@@ -55,15 +40,15 @@
     },
     {
       "id": "5",
-      "name": "Project D",
+      "name": "Project D Updated",
       "content": "Project D Content",
-      "projectCategoryId": "1"
+      "img": "https://picsum.photos/400/400"
     },
     {
       "id": "6",
       "name": "Project D",
       "content": "Project D Content",
-      "projectCategoryId": "1"
+      "img": "https://picsum.photos/400/400"
     }
   ],
   "menuList": [
@@ -110,7 +95,7 @@
       "icon": "<svg xmlns='http://www.w3.org/2000/svg'fill='none'viewBox='0 0 24 24'stroke-width='1.5'stroke='currentColor'class='w-6 h-6'><path stroke-linecap='round'stroke-linejoin='round'd='M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z'/><path stroke-linecap='round'stroke-linejoin='round'd='M6 6h.008v.008H6V6z'/></svg>"
     }
   ],
-  "category": [
+  "categories": [
     {
       "categoryId": "1",
       "categoryName": "Life's styles"

@@ -1,14 +1,15 @@
 import { getProject, updateProject } from "../../api/project";
+import Aside from "../../components/Aside";
 import { router, useEffect, useState } from "../../lib";
 
 const AdminEditProjectsPage = ({ id }) => {
   // kiểm tra localStorage có dữ liệu không?
   // nếu có thì lấy dữ liệu
   // ngược lại thì gán mảng rỗng
-  const [data, setData] = useState({});
+  const [project, setProject] = useState({});
 
   useEffect(() => {
-    getProject(id).then((data) => setData(data));
+    getProject(id).then((data) => setProject(data));
   }, []);
 
   // const projects = JSON.parse(localStorage.getItem("projects")) || [];
@@ -29,8 +30,7 @@ const AdminEditProjectsPage = ({ id }) => {
       };
 
       updateProject(formData).then(() => {
-        //router.navigate("/admin/projects", { replace: true });
-        history.replaceState({}, null, "/admin/projects");
+        history.replaceState({}, null, "/#/admin/projects");
         router.resolve();
       });
       // chuyển hướng về trang quản lý dự án
@@ -41,11 +41,11 @@ const AdminEditProjectsPage = ({ id }) => {
         <form action="" id="form-add">
             <div class="form-group mb-3">
                 <label for="" class="form-label">Tên dự án</label>
-                <input type="text" class="form-control" id="project-name" value="${data.name}" />
+                <input type="text" class="form-control" id="project-name" value="${project.name}" />
             </div>
             <div class="form-group mb-3">
                 <label for="" class="form-label">Nội dung dự án</label>
-                <input type="text" class="form-control" id="project-content" value="${data.content}" />
+                <input type="text" class="form-control" id="project-content" value="${project.content}" />
             </div>
             <div class="form-group">
                 <button class="btn btn-primary">Thêm dự án</button>

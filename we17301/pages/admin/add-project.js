@@ -12,7 +12,7 @@ const AdminAddProjectPage = () => {
         img: "https://picsum.photos/400/400",
       };
       addProject(formData).then((data) => {
-        history.replaceState("", null, "/admin/projects");
+        history.replaceState("", null, "/#/admin/projects");
         router.resolve();
       });
     });

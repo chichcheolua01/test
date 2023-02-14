@@ -1,24 +1,16 @@
-// import instance from "./config";
-
-// const getProjects = () => {
-//   return instance.get("/projects");
-// };
-// const getProject = (id) => {
-//   return instance.get(`/projects/${id}`);
-// };
-// const addProject = (project) => {
-//   return instance.post("/projects", project);
-// };
-// const deleteProject = (id) => {
-//   return instance.delete(`/projects/${id}`);
-// };
-// const updateProject = (project) => {
-//   return instance.put(`/projects/${project.id}`, project);
-// };
-
-// export { getProjects, getProject, addProject, deleteProject, updateProject };
-
 import instance from "./config";
+
+const deleteCategory = (id) => {
+  return instance.delete(`categories/${id}`);
+};
+
+const getCategories = () => {
+  return instance.get("categories");
+};
+
+const updatePost = (post) => {
+  return instance.put(`/posts/${post.id}`, post);
+};
 
 const deletePost = (id) => {
   return instance.delete(`/posts/${id}`);
@@ -61,6 +53,9 @@ const deleteProject = (id) => {
 };
 
 export {
+  deleteCategory,
+  getCategories,
+  updatePost,
   deletePost,
   getPost,
   getPosts,

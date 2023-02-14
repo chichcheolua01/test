@@ -5,9 +5,9 @@ const Aside = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     getConfig().then((data) => setData(data));
-  });
+  }, []);
   return `
-        <aside class="flex flex-col space-y-[20px]">
+        <aside class="flex flex-col h-screen space-y-[20px]">
         <div class="bg-white p-5 h-[150px]">
           <img
             class="overflow-hidden max-h-[150px]"
@@ -15,22 +15,18 @@ const Aside = () => {
             alt=""
           />
         </div>
-        <div class="flex justify-center">
-          <div class="w-full flex flex-col space-y-[10px] pl-[10px]">
-          <p class="text-sm">Admin tools</p>
-          ${data
-            .map(
-              (config) => `<a href="${config.path}" class="no-underline">
-              <div
-                class="flex justify-start items-center py-[10px] rounded-lg"
-              >
-                <div class="hover:text-cyan-500 text-gray-500 flex items-center font-nm h-full space-x-[5px]"> <p>${config.icon}</p><p>${config.name}</p> </div>
-              </div>
-            </a>`
-            )
-            .join("")}
-          </div>
-        </div>
+       <nav class="p-4">
+  <ul class="text-white">
+  ${data
+    .map((config) => {
+      return `    <li class="mb-2">
+      <a class="p-2 duration-500 font-medium text-sm text-gray-500 hover:text-[#7B1FA2] rounded flex items-start space-x-[10px] no-underline" href="/#${config.path}"><p>${config.icon}</p> <p>${config.name}</p>  </a>
+    </li>`;
+    })
+    .join("")}
+
+  </ul>
+</nav>
       </aside>
       `;
 };
