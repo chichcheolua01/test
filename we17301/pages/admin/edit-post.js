@@ -33,7 +33,8 @@ const AdminEditPostPage = ({ id }) => {
       };
       console.log(formData);
       updatePost(formData).then(() => {
-        router.navigate("/#/admin/posts")
+        history.replaceState("", null, "/#/admin/posts")
+        router.resolve();
       });
     });
   });

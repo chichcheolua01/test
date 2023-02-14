@@ -14,6 +14,7 @@ import AdminPostsPage from "./pages/admin/posts";
 import AdminAddPostPage from "./pages/admin/add-post";
 import AdminEditPostPage from "./pages/admin/edit-post";
 import AdminCategoriesPage from "./pages/admin/categories";
+import AdminEditCategoryPage from "./pages/admin/edit-category";
 
 const app = document.querySelector("#app");
 router.on("/", () => render(HomePage, app));
@@ -32,10 +33,14 @@ router.on("/admin/projects/:id/edit", ({ data }) =>
   render(() => AdminEditProjectsPage(data), app)
 );
 router.on("/admin/posts", () => render(AdminPostsPage, app));
-router.on("/admin/post/add", () => render(AdminAddPostPage, app));
+router.on("/admin/posts/add", () => render(AdminAddPostPage, app));
 router.on("/admin/posts/:id/edit", ({ data }) =>
   render(() => AdminEditPostPage(data), app)
 );
 router.on("admin/categories", () => render(AdminCategoriesPage, app));
+router.on("admin/categories/:id");
+router.on("admin/categories/:id/edit", ({data}) =>
+  render(() => AdminEditCategoryPage(data), app)
+);
 
 router.resolve();

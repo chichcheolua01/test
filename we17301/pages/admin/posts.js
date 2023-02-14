@@ -24,6 +24,9 @@ const AdminPostsPage = () => {
   <div class="grid grid-cols-5 gap-[20px] grid-rows-2">
       ${Aside()}
       ${Banner()}
+      <div class="flex justify-end mb-3 mr-3">
+      <a href="/#/admin/posts/add">
+      <button class="bg-cyan-500 hover:bg-cyan-700 text-white py-2 px-4 rounded ml-4">Add</button></a></div>
 <table class="table-auto w-full text-left">
   <thead>
     <tr class="bg-gray-300 text-cyan-500">
@@ -41,30 +44,30 @@ const AdminPostsPage = () => {
         .map(function (post, index) {
           return `
         <tr class="bg-gray-100">
-      <td class="border px-4 py-2">${index + 1}</td>
-      <td class="border px-4 py-2">${post.title}</td>
-      <td class="border px-4 py-2">${post.content.slice(0, 30)}</td>
-      <td class="border px-4 py-2">${post.createAt}</td>
-      <td class="border px-4 py-2">${post.author}</td>
-      <td class="border px-4 py-2">${post.category}</td>
-      <td class="border flex flex-col px-4 py-2">
-              <a class="bg-cyan-500 hover:bg-cyan-700 text-white py-2 px-4 rounded btn-edit no-underline" href="/#/admin/posts/${
-                post.id
-              }/edit">Edit</a>
-        <button data-id="${
-          post.id
-        }" class="bg-cyan-400 hover:bg-cyan-600 text-white py-2 px-4 rounded mt-[4px] btn-remove">Delete</button>
-      </td>
-    </tr>
-        `;
+          <td class="border px-4 py-2">${index + 1}</td>
+          <td class="border px-4 py-2">${post.title}</td>
+          <td class="border px-4 py-2">${post.content.slice(0, 30)}</td>
+          <td class="border px-4 py-2">${post.createAt}</td>
+          <td class="border px-4 py-2">${post.author}</td>
+          <td class="border px-4 py-2">${post.category}</td>
+          <td class="border flex flex-col px-4 py-2">
+                  <a class="bg-cyan-500 hover:bg-cyan-700 text-white py-2 px-4 rounded btn-edit no-underline" href="/#/admin/posts/${
+                    post.id
+                  }/edit">Edit</a>
+            <button data-id="${
+              post.id
+            }" class="bg-gray-300 hover:bg-gray-400 text-cyan-500 hover:text-white py-2 px-4 rounded mt-[4px] btn-remove">Delete</button>
+          </td>
+        </tr>
+            `;
         })
         .join("")}
-       
-      </tbody>
-    </table>
-        </div>
-      </div>
-    </div>`;
+          
+          </tbody>
+        </table>
+            </div>
+          </div>
+        </div>`;
 };
 
 export default AdminPostsPage;

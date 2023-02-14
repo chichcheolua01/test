@@ -1,5 +1,13 @@
 import instance from "./config";
 
+const updateCategory = (category) => {
+  return instance.put(`categories/${category.id}`, category)
+}
+
+const getCategory = (id) => {
+  return instance.get(`categories/${id}`)
+}
+
 const deleteCategory = (id) => {
   return instance.delete(`categories/${id}`);
 };
@@ -53,7 +61,9 @@ const deleteProject = (id) => {
 };
 
 export {
+  updateCategory,
   deleteCategory,
+  getCategory,
   getCategories,
   updatePost,
   deletePost,

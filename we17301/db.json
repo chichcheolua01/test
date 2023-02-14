@@ -13,28 +13,13 @@
       "createAt": "12/3/2022",
       "author": "Tran Trung Nghia",
       "except": "",
-      "category": "1"
-    },
-    {
-      "id": "3",
-      "title": "How to invest with no money?",
-      "content": "ABC XYZ qjehajdhhwqe qwekjwhdjha qwekjwhdjha dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQ BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQxcn F89AYNMiD4YtEcYekBt9Q7nj0DiId2XH2Ng2PHM54qi5oPrQ8luuzGszqi",
-      "post-fearture-image": {
-        "img1": "post3-img1.png",
-        "img2": "post3-img2.png",
-        "img3": "post3-img3.png",
-        "img4": "post3-img4.png"
-      },
-      "createAt": "12/3/2022",
-      "author": "Tran Trung Nghia",
-      "except": "",
-      "category": "3"
+      "categories": "1"
     }
   ],
   "projects": [
     {
       "id": "4",
-      "name": "Project D 123",
+      "name": "Project D",
       "content": "Project D Content Updated",
       "img": "https://picsum.photos/400/400"
     },
@@ -97,16 +82,12 @@
   ],
   "categories": [
     {
-      "categoryId": "1",
-      "categoryName": "Life's styles"
+      "id": "1",
+      "name": "Life's styles"
     },
     {
-      "categoryId": "2",
-      "categoryName": "Coding"
-    },
-    {
-      "categoryId": "3",
-      "categoryName": "Investing"
+      "id": "2",
+      "name": "Coding"
     }
   ]
 }
