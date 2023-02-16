@@ -25,6 +25,9 @@ const AdminCategoriesPage = () => {
       <div class="grid grid-cols-5 gap-[20px] grid-rows-2">
       ${Aside()}
       ${Banner()}
+       <div class="flex justify-end mb-3 mr-3">
+      <a href="/#/admin/categories/add">
+      <button class="bg-cyan-500 hover:bg-cyan-700 text-white py-2 px-4 rounded ml-4">Add</button></a></div>
 <table class="table-auto w-full text-left">
   <thead>
     <tr class="bg-gray-300 text-cyan-500">

@@ -26,7 +26,7 @@ const AdminAddProjectPage = () => {
   <div class="grid grid-cols-5 gap-[20px] grid-rows-2">
       ${Aside()}
       ${Banner()}
-              <form action="" id="form-add" class="flex flex-col space-y-[10px]">
+        <form action="" id="form-add" class="flex flex-col space-y-[10px]">
       <div class="form-group">
         <label for="" class="label">Project Name</label>
         <input type="text" name="" id="new-name" class="form-control">

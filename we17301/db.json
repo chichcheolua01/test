@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": "2",
-      "title": "How to find a girl friend?",
+      "title": "How to find a girl friend updated sdada",
       "content": "ABC XYZ qjehajdhhwqe qwekjwhdjha qwekjwhdjha dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQ BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQxcn F89AYNMiD4YtEcYekBt9Q7nj0DiId2XH2Ng2PHM54qi5oPrQ8luuzGszqi",
       "postFeartureImage": {
         "img1": "post1-img1.png",
@@ -13,27 +13,52 @@
       "createAt": "12/3/2022",
       "author": "Tran Trung Nghia",
       "except": "",
-      "categories": "1"
+      "categoryId": "1"
+    },
+    {
+      "title": "123",
+      "content": "123",
+      "postFeartureImage": {
+        "img1": "post1-img1.png",
+        "img2": "post1-img2.png",
+        "img3": "post1-img3.png",
+        "img4": "post1-img4.png"
+      },
+      "createAt": "123",
+      "author": "123",
+      "except": "1",
+      "categoryId": "2",
+      "id": "z9tbfch"
     }
   ],
   "projects": [
     {
       "id": "4",
-      "name": "Project D",
-      "content": "Project D Content Updated",
-      "img": "https://picsum.photos/400/400"
+      "name": "Twitter",
+      "content": "A programmer for one of the world's leading social networks.",
+      "img": "twitter.png",
+      "projectLink": "twitter.com"
     },
     {
       "id": "5",
-      "name": "Project D Updated",
-      "content": "Project D Content",
-      "img": "https://picsum.photos/400/400"
+      "name": "Facebook",
+      "content": "The marketing team leader of Facebook for 2 years, from 2019 to 2021.",
+      "img": "facebook.png",
+      "projectLink": "github.com"
     },
     {
       "id": "6",
-      "name": "Project D",
-      "content": "Project D Content",
-      "img": "https://picsum.photos/400/400"
+      "name": "Instagram",
+      "content": "Working as a tester at Instagram for 6 months in 2022.",
+      "img": "instagram.png",
+      "projectLink": "github.com"
+    },
+    {
+      "name": "Space X",
+      "content": "Best space company in the world, fulfiling my childhood dream.",
+      "img": "spacex.png",
+      "id": "QLedVKM",
+      "projectLink": "github.com"
     }
   ],
   "menuList": [
@@ -88,6 +113,35 @@
     {
       "id": "2",
       "name": "Coding"
+    },
+    {
+      "name": "banh mi co ngon k?",
+      "id": "SGS2aPA"
     }
-  ]
+  ],
+  "about": {
+    "title": "I’m Tran Trung Nghia. I live in Ha Noi, where I design my own future.",
+    "information": [
+      {
+        "id": "1",
+        "text": "I’ve loved making things for as long as I can remember, and wrote my first program when I was 6 years old, just two weeks after my mom brought home the brand new Macintosh LC 550 that I taught myself to type on."
+      },
+      {
+        "id": "2",
+        "text": "The only thing I loved more than computers as a kid was space. When I was 8, I climbed the 40-foot oak tree at the back of our yard while wearing my older sister’s motorcycle helmet, counted down from three, and jumped — hoping the tree was tall enough that with just a bit of momentum I’d be able to get to orbit."
+      },
+      {
+        "id": "3",
+        "text": "I spent the next few summers indoors working on a rocket design, while I recovered from the multiple surgeries it took to fix my badly broken legs. It took nine iterations, but when I was 15 I sent my dad’s Blackberry into orbit and was able to transmit a photo back down to our family computer from space."
+      },
+      {
+        "id": "4",
+        "text": "Today, I’m the founder of Planetaria, where we’re working on civilian space suits and manned shuttle kits you can assemble at home so that the next generation of kids really can make it to orbit — from the comfort of their own backyards."
+      }
+    ],
+    "avatar": "avatar.png",
+    "email": "tran20011234@gmail.com",
+    "goalTitle": "Things I’ve made trying to put my dent in the universe.",
+    "goalContent": "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+  }
 }

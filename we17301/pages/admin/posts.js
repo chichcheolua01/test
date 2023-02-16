@@ -49,7 +49,7 @@ const AdminPostsPage = () => {
           <td class="border px-4 py-2">${post.content.slice(0, 30)}</td>
           <td class="border px-4 py-2">${post.createAt}</td>
           <td class="border px-4 py-2">${post.author}</td>
-          <td class="border px-4 py-2">${post.category}</td>
+          <td class="border px-4 py-2">${post.categoryId}</td>
           <td class="border flex flex-col px-4 py-2">
                   <a class="bg-cyan-500 hover:bg-cyan-700 text-white py-2 px-4 rounded btn-edit no-underline" href="/#/admin/posts/${
                     post.id

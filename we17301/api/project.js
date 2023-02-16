@@ -1,5 +1,13 @@
 import instance from "./config";
 
+const getAbout = () => {
+  return instance.get("/about")
+}
+
+const addCategory = (category) => {
+  return instance.post("/categories", category)
+}
+
 const updateCategory = (category) => {
   return instance.put(`categories/${category.id}`, category)
 }
@@ -15,6 +23,10 @@ const deleteCategory = (id) => {
 const getCategories = () => {
   return instance.get("categories");
 };
+
+const addPost = (post) =>{
+  return instance.post("/posts", post)
+}
 
 const updatePost = (post) => {
   return instance.put(`/posts/${post.id}`, post);
@@ -61,10 +73,13 @@ const deleteProject = (id) => {
 };
 
 export {
+  getAbout,
+  addCategory,
   updateCategory,
   deleteCategory,
   getCategory,
   getCategories,
+  addPost,
   updatePost,
   deletePost,
   getPost,

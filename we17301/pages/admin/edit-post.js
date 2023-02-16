@@ -15,7 +15,9 @@ const AdminEditPostPage = ({ id }) => {
     const editPostCreateTime = document.getElementById("edit-post-create-time");
     const editPostAuthor = document.getElementById("edit-post-author");
     const editPostCategory = document.getElementById("edit-post-category");
-    form.addEventListener("submit", function () {
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
       const formData = {
         id,
         title: editPostTitle.value,
@@ -29,11 +31,11 @@ const AdminEditPostPage = ({ id }) => {
         createAt: editPostCreateTime.value,
         author: editPostAuthor.value,
         except: "",
-        category: editPostCategory.value,
+        categoryId: editPostCategory.value,
       };
       console.log(formData);
       updatePost(formData).then(() => {
-        history.replaceState("", null, "/#/admin/posts")
+        history.replaceState("", null, "/#/admin/posts");
         router.resolve();
       });
     });

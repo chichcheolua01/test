@@ -3,3 +3,9 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
+/*
+${menuList.map((menuList) =>{
+          return ` ${menuList.name} `
+        })}
+*/

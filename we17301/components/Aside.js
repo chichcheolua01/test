@@ -20,7 +20,7 @@ const Aside = () => {
   ${data
     .map((config) => {
       return `    <li class="mb-2">
-      <a class="p-2 duration-500 font-medium text-sm text-gray-500 hover:text-[#7B1FA2] rounded flex items-start space-x-[10px] no-underline" href="/#${config.path}"><p>${config.icon}</p> <p>${config.name}</p>  </a>
+      <a class="p-2 duration-500 font-medium text-sm text-gray-500 hover:text-[#7B1FA2] rounded flex items-start space-x-[10px] no-underline" href="/#${config.path}"><div class="flex items-center gap-3"> <p>${config.icon}</p> <p>${config.name}</p> </div> </a>
     </li>`;
     })
     .join("")}
