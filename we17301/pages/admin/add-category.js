@@ -7,10 +7,12 @@ const AdminAddCategoryPage = () => {
   useEffect(() => {
     const form = document.getElementById("form-add");
     const newName = document.getElementById("new-name");
+    const newIcon = document.getElementById("new-icon")
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       const formData = {
         name: newName.value,
+        icon: newIcon.value
       };
       addCategory(formData).then(() => {
         history.replaceState("", null, "/#/admin/categories");
@@ -26,8 +28,12 @@ const AdminAddCategoryPage = () => {
       ${Banner()}
           <form action="" id="form-add" class="flex flex-col space-y-[10px]">
             <div class="form-group">
-              <label for="" class="label">Project Name</label>
+              <label for="" class="label">Category Name</label>
               <input type="text" name="" id="new-name" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="" class="label">Icon URL</label>
+              <input type="text" name="" id="new-icon" class="form-control">
             </div>
             <div class="form-group">
               <button class="btn btn-primary" id="btn-add">Add</button>

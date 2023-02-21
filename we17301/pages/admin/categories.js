@@ -28,14 +28,14 @@ const AdminCategoriesPage = () => {
        <div class="flex justify-end mb-3 mr-3">
       <a href="/#/admin/categories/add">
       <button class="bg-cyan-500 hover:bg-cyan-700 text-white py-2 px-4 rounded ml-4">Add</button></a></div>
-<table class="table-auto w-full text-left">
-  <thead>
-    <tr class="bg-gray-300 text-cyan-500">
-      <th class="px-4 py-2">#</th>
-      <th class="px-4 py-2">Name</th>
-      <th class="px-4 py-2">Action</th>
-    </tr>
-  </thead>
+  <table class="table-auto w-full text-left">
+    <thead>
+      <tr class="bg-gray-300 text-cyan-500">
+        <th class="px-4 py-2">#</th>
+        <th class="px-4 py-2">Name</th>
+        <th class="px-4 py-2">Action</th>
+      </tr>
+    </thead>
       <tbody>
       ${data
         .map(function (category, index) {

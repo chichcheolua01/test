@@ -30,21 +30,21 @@ const instance = axios.create({
 });
 
 instance.interceptors.request.use(
-  function (config) {
+  function (config){
     return config;
   },
-  function (error) {
-    return Promise.reject(error);
+  function (error){
+    return Promise.reject(error)
   }
-);
+)
 
 instance.interceptors.response.use(
-  function (response) {
+  function(response){
     return response.data;
   },
-  function (error) {
-    return Promise.reject(error);
+  function(error){
+    return Promise.reject(error)
   }
-);
+)
 
 export default instance;

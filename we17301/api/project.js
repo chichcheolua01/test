@@ -1,5 +1,17 @@
 import instance from "./config";
 
+const getProjectCategory = () => {
+  return instance.get("/projectCategories");
+}
+
+const deleteMenuList = () => {
+  return instance.delete(`/menuList/${id}`)
+}
+
+const getMenuList = () => {
+  return instance.get(`/menuList/${id}`)
+}
+
 const getAbout = () => {
   return instance.get("/about")
 }
@@ -48,7 +60,7 @@ const getConfig = () => {
   return instance.get("/config");
 };
 
-const getMenuList = () => {
+const getMenuLists = () => {
   return instance.get("/menuList");
 };
 
@@ -73,6 +85,7 @@ const deleteProject = (id) => {
 };
 
 export {
+  getProjectCategory,
   getAbout,
   addCategory,
   updateCategory,
@@ -89,6 +102,8 @@ export {
   updateProject,
   addProject,
   deleteProject,
+  deleteMenuList,
   getMenuList,
+  getMenuLists,
   getConfig,
 };

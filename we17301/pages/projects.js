@@ -1,68 +1,50 @@
-import { getAbout, getProjects } from "../api/project";
+import { getAbout, getProjectCategory, getProjects } from "../api/project";
+import UserFooter from "../components/UserFooter";
 import UserHeader from "../components/UserHeader";
+import UserProjectCategory from "../components/UserProjectCategory";
+import UserProjects from "../components/UserProjects";
 import { useEffect, useState } from "../lib";
 
 const ProjectsPage = () => {
-  const [data, setData] = useState([]);
+  const [projects, setProjects] = useState([]);
   const [about, setAbout] = useState({});
-  const [goal, setGoal] = useState([]);
+  const [projectCategories, setProjectCategories] = useState([])
   useEffect(() => {
-    getProjects().then((data) => setData(data));
+    getProjectCategory().then((projectCategory) => setProjectCategories(projectCategory))
+  }, [])
+  useEffect(() => {
+    getProjects().then((data) => setProjects(data));
   }, []);
   useEffect(() => {
     getAbout().then((about) => {
       setAbout(about);
     });
   }, []);
-  if (!data) return null;
+  const onHandleClick = (id) => {
+    fetch(`http://localhost:3000/projectCategories/${id}/?_embed=projects`)
+      .then((response) => response.json())
+      .then((project) => setProjects(project));
+  };
   return /* html */ `
   ${UserHeader()}
   <main class="px-10 py-10 mt-[50px]">
     <section class="w-3/4">
       <p class="text-5xl text-black font-semibold mb-[30px] pr-[100px]">${
-        about.goalTitle
+        about.goalTitle ? about.goalTitle : ""
       }</p>
       <p class="text-gray-500">${about.goalContent}</p>
     </section>
-    <section class="flex flex-wrap">
-    ${data
-      .map(
-        (item) => `
-        <div class="w-full lg:w-1/3 p-3">
-          <a class="no-underline" href="#/projects/${item.id}">
-            <div class="p-6 rounded-lg hover:bg-[#FFF9F9] flex flex-col justify-between">
-              <div>
-                <div class="flex mb-[20px]">
-                  <div class="bg-gray-100 p-[10px] rounded-full">
-                    <img src="./images/${item.img}" class="w-[40px] h-[40px] object-fit rounded-full">
-                  </div>
-                </div>
-                <div>
-                  <h2 class="text-lg font-normal text-black">${item.name}</h2>
-                  <p class="text-gray-500 text-sm mb-5">
-                    ${item.content}
-                  </p>
-                </div>
-              </div>
-              <div class="p-6">
-                <div class="flex space-x-5">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mt-[1.5px] w-4 h-4 text-gray-400">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-                  </svg>
-                  <p class="text-gray-400 text-sm">${item.projectLink}</p>
-                </div>
-              </div>
-            </div>
-            
-          </a>
-        </div>
-        
-    `
-      )
-      .join("")}
-      
+    <section class="flex mt-10 border-l-[1px] p-6 space-x-[20px]">  
+      <div>
+        ${UserProjectCategory({ projectCategories, onClick: onHandleClick })}
+      </div>
+        <div>
+        ${UserProjects({ projects })}
+      </div>
     </section>
-  </main>`;
+  </main>
+  ${UserFooter()}
+  `;
 };
 //   ${data
 //     .map((project) => {

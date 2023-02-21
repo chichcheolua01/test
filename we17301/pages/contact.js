@@ -1,5 +1,7 @@
+import UserHeader from "../components/UserHeader";
+
 const ContactPage = () => {
-  return `<div>ContactPage</div>`;
+  return `${UserHeader()}`;
 };
 
 export default ContactPage;

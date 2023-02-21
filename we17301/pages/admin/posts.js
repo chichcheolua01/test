@@ -46,7 +46,7 @@ const AdminPostsPage = () => {
         <tr class="bg-gray-100">
           <td class="border px-4 py-2">${index + 1}</td>
           <td class="border px-4 py-2">${post.title}</td>
-          <td class="border px-4 py-2">${post.content.slice(0, 30)}</td>
+          <td class="border px-4 py-2">${post.except.slice(0, 30)}</td>
           <td class="border px-4 py-2">${post.createAt}</td>
           <td class="border px-4 py-2">${post.author}</td>
           <td class="border px-4 py-2">${post.categoryId}</td>

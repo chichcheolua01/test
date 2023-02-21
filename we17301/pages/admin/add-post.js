@@ -11,20 +11,15 @@ const AdminAddPostPage = () => {
     const newPostCreateTime = document.getElementById("new-post-create-time");
     const newPostAuthor = document.getElementById("new-post-author");
     const newPostCategory = document.getElementById("new-post-category");
+    const newPostExcept = document.getElementById("new-post-except")
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       const formData = {
         title: newPostTitle.value,
         content: newPostContent.value,
-        postFeartureImage: {
-          img1: "post1-img1.png",
-          img2: "post1-img2.png",
-          img3: "post1-img3.png",
-          img4: "post1-img4.png",
-        },
         createAt: newPostCreateTime.value,
         author: newPostAuthor.value,
-        except: "1",
+        except: newPostExcept.value,
         categoryId: newPostCategory.value,
       };
       console.log(formData);
@@ -56,13 +51,19 @@ const AdminAddPostPage = () => {
               <label class="block text-gray-700 text-sm font-bold mb-2" for="create_time">
                 Create Time
               </label>
-              <input id="new-post-create-time" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="">
+              <input id="new-post-create-time" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="" placeholder="Enter create time">
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 text-sm font-bold mb-2" for="author">
                 Author
               </label>
               <input id="new-post-author" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Enter author name">
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="author">
+                Except
+              </label>
+              <input id="new-post-except" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Enter post except">
             </div>
             <div class="mb-4">
               <label class="block text-gray-700 text-sm font-bold mb-2" for="category">

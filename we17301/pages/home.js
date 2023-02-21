@@ -1,7 +1,8 @@
-import Header from "../components/Header";
+
+import UserHeader from "../components/UserHeader";
 
 const HomePage = () => {
-  return `${Header()}`;
+  return `${UserHeader()}`;
 };
 
 export default HomePage;

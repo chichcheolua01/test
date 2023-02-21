@@ -2,83 +2,274 @@
   "posts": [
     {
       "id": "2",
-      "title": "How to find a girl friend updated sdada",
-      "content": "ABC XYZ qjehajdhhwqe qwekjwhdjha qwekjwhdjha dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQ BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQxcn F89AYNMiD4YtEcYekBt9Q7nj0DiId2XH2Ng2PHM54qi5oPrQ8luuzGszqi",
-      "postFeartureImage": {
-        "img1": "post1-img1.png",
-        "img2": "post1-img2.png",
-        "img3": "post1-img3.png",
-        "img4": "post1-img4.png"
-      },
+      "title": "'Only fools ask?'",
+      "content": [
+        {
+          "id": "1",
+          "content": "The phrase 'only fools ask' is a common expression that is often used to discourage people from seeking out knowledge or asking questions. It implies that asking questions is a sign of weakness or stupidity, and that the only way to be smart is to already know everything.",
+          "img": "post1-img1.png"
+        },
+        {
+          "id": "2",
+          "content": "However, this phrase couldn't be further from the truth. Asking questions and seeking knowledge is actually a sign of intelligence and curiosity, and is a necessary part of the learning process. Without questions, we would have no way of discovering new information, solving problems, or challenging assumptions.",
+          "img": "post1-img2.png"
+        },
+        {
+          "id": "3",
+          "content": "In fact, the most successful people in any field are often the ones who are not afraid to ask questions and seek out answers. They understand that there is always more to learn, and that no one person can know everything.",
+          "img": "post1-img3.png"
+        },
+        {
+          "id": "4",
+          "content": "It's important to remember that there is no shame in not knowing something, and that asking questions is not a sign of weakness, but rather a sign of strength and a desire to learn. So the next time someone tells you that 'only fools ask,' remember that it's actually the opposite: only fools think they already know everything.",
+          "img": "post1-img4.png"
+        }
+      ],
       "createAt": "12/3/2022",
       "author": "Tran Trung Nghia",
-      "except": "",
+      "except": "What life would be without questions? If there no question, will anyone archives anything?",
+      "categoryId": "2"
+    },
+    {
+      "title": "Don't see what will you become, see what you have done!",
+      "content": [
+        {
+          "id": "1",
+          "content": "The phrase 'don't see what you will become, see what you have done' is a powerful reminder to focus on the present moment and to appreciate the progress that we have already made in our lives, rather than constantly worrying about the future.",
+          "img": "post2-img1.png"
+        },
+        {
+          "id": "2",
+          "content": "Too often, we become fixated on our future goals and aspirations, and we forget to appreciate the small victories and accomplishments that we achieve along the way. We become so focused on where we want to be in the future that we forget to enjoy the journey and the progress that we are making in the present.",
+          "img": "post2-img2.png"
+        },
+        {
+          "id": "3",
+          "content": "By shifting our focus from the future to the present, we can start to appreciate the hard work and effort that we have already put in, and feel more confident and motivated to continue moving forward. Rather than constantly worrying about the future, we can focus on the present moment and the steps that we need to take to achieve our goals.",
+          "img": "post2-img3.png"
+        },
+        {
+          "id": "4",
+          "content": "In the end, it is our actions and accomplishments that define us, not our future goals or aspirations. So instead of worrying about what we will become, let's focus on what we have already done and use that as a source of inspiration and motivation to continue growing and achieving our goals.",
+          "img": "post2-img4.png"
+        }
+      ],
+      "createAt": "12/07/2022",
+      "author": "Tran Trung Nghia",
+      "except": "It's normal that everyone on this planet what to be successful, but don't know how. We'll see what success person do for their life",
+      "categoryId": "2",
+      "id": "z9tbfch"
+    },
+    {
+      "id": "J8orWxm",
+      "title": "My first website",
+      "content": [
+        {
+          "id": "1",
+          "content": "My first website was a simple personal blog that I created when I was in high school. It was a basic HTML website that I built from scratch using a simple text editor. I remember spending countless hours tinkering with the code and designing the layout of the website, trying to make it look as visually appealing as possible.",
+          "img": "post3-img1.png"
+        },
+        {
+          "id": "2",
+          "content": "Despite its simplicity, my first website was a huge accomplishment for me at the time. It allowed me to share my thoughts and ideas with the world, and it gave me a platform to express myself in a way that I had never been able to before. Through the process of building my first website, I learned a lot about web design, HTML, and CSS, and I gained a greater appreciation for the power of the internet and the potential it has to connect people and share ideas.",
+          "img": "post3-img2.png"
+        },
+        {
+          "id": "3",
+          "content": "Looking back on my first website now, I realize that it was far from perfect and had many flaws. However, it was an important stepping stone in my journey towards becoming a web developer, and it helped me develop a passion for building websites and creating digital experiences. My first website will always hold a special place in my heart as the beginning of my journey into the world of web development.",
+          "img": "post3-img3.png"
+        },
+        {
+          "id": "4",
+          "content": "Looking back on my first website now, I realize that it was far from perfect and had many flaws. However, it was an important stepping stone in my journey towards becoming a web developer, and it helped me develop a passion for building websites and creating digital experiences. My first website will always hold a special place in my heart as the beginning of my journey into the world of web development.",
+          "img": "post3-img4.png"
+        }
+      ],
+      "createAt": "12/09/2022",
+      "author": "Tran Trung Nghia",
+      "except": "It's just a basic website used only HTML and CSS. I was kind of loser at that moment, losing in the maze of coding. But now I'm here, with you!",
       "categoryId": "1"
     },
     {
-      "title": "123",
-      "content": "123",
-      "postFeartureImage": {
-        "img1": "post1-img1.png",
-        "img2": "post1-img2.png",
-        "img3": "post1-img3.png",
-        "img4": "post1-img4.png"
-      },
-      "createAt": "123",
-      "author": "123",
-      "except": "1",
-      "categoryId": "2",
-      "id": "z9tbfch"
+      "title": "First time using Tailwind CSS",
+      "content": [
+        {
+          "id": "1",
+          "content": "Tailwind CSS is a popular utility-first CSS framework that has gained a lot of traction in recent years. Unlike other CSS frameworks that offer pre-designed components and styles, Tailwind provides a set of pre-defined utility classes that can be used to quickly style HTML elements and create custom designs.",
+          "img": "post4-img1.png"
+        },
+        {
+          "id": "2",
+          "content": "The unique approach of Tailwind CSS is that it encourages the use of reusable utility classes, such as text-center, bg-gray-200, and rounded-lg, rather than writing custom CSS styles for each individual element. This makes it much faster and easier to create complex layouts and styles without having to write a lot of custom CSS code.",
+          "img": "post4-img2.png"
+        },
+        {
+          "id": "3",
+          "content": "Tailwind CSS also offers a responsive design system that allows developers to create designs that work across different devices and screen sizes. By using a combination of responsive utility classes and breakpoints, it is possible to create designs that are optimized for different screen sizes and orientations.",
+          "img": "post4-img3.png"
+        },
+        {
+          "id": "4",
+          "content": "Another advantage of Tailwind CSS is its modularity and customizability. Developers can easily customize the colors, typography, and other design elements to create a unique look and feel for their project. And by using PurgeCSS, it is possible to optimize the size of the CSS file and remove any unused styles.",
+          "img": "post4-img4.png"
+        }
+      ],
+      "createAt": "20/1/2023",
+      "author": "Tran Trung Nghia",
+      "except": "It was a nightmare for the first time, but now I'm addicted to it. It makes my job become faster and more flexible. What a live saver!!",
+      "categoryId": "1",
+      "id": "EwmJ49a"
     }
   ],
   "projects": [
     {
       "id": "4",
       "name": "Twitter",
-      "content": "A programmer for one of the world's leading social networks.",
+      "content": [
+        {
+          "id": "1",
+          "content": "As a developer for Twitter, I am constantly working to improve the platform and provide users with the best possible experience. In recent years, we have seen an explosion of social media use and it has become more important than ever to provide a safe and secure platform for people to share their thoughts and ideas.",
+          "img": "project1-img1.png"
+        },
+        {
+          "id": "2",
+          "content": "One of the most important aspects of my job is to ensure that our platform is always up-to-date and responsive to the needs of our users. This means staying on top of the latest trends in technology and social media, and working with our team to implement new features and improvements.",
+          "img": "project1-img2.png"
+        },
+        {
+          "id": "3",
+          "content": "At the same time, we must also be vigilant when it comes to security and user privacy. Our users trust us with their personal information and it is our responsibility to protect that data to the best of our abilities.",
+          "img": "project1-img3.png"
+        },
+        {
+          "id": "4",
+          "content": "As a developer for Twitter, I take great pride in being a part of a team that is dedicated to creating a platform that is not only functional and reliable, but also safe and secure for everyone to use. I am constantly striving to improve the user experience and make Twitter a better place for all of us to connect and engage with one another.",
+          "img": "project1-img4.png"
+        }
+      ],
+      "except": "A programmer for one of the world's leading social networks, over 1 bilion user",
       "img": "twitter.png",
-      "projectLink": "twitter.com"
+      "projectLink": "twitter.com",
+      "createAt": "12/07/2022",
+      "projectCategoryId": "1"
     },
     {
       "id": "5",
       "name": "Facebook",
-      "content": "The marketing team leader of Facebook for 2 years, from 2019 to 2021.",
+      "content": [
+        {
+          "id": "1",
+          "content": "As a developer working on Facebook, I am constantly reminded of the immense influence that our platform has on people's lives. Facebook is not just a social media network, but a tool that connects people across the globe, allows them to share their experiences, and helps them stay in touch with loved ones.",
+          "img": "project2-img1.png"
+        },
+        {
+          "id": "2",
+          "content": "As a Facebook developer, my role is to help create innovative and engaging features that improve the user experience, while maintaining the high level of security and privacy that our users expect. This requires a deep understanding of the platform's capabilities, as well as an ability to anticipate and respond to user needs.",
+          "img": "project2-img2.png"
+        },
+        {
+          "id": "3",
+          "content": "One of the most exciting aspects of working on Facebook is the constant evolution of the platform. Whether it's introducing new features, enhancing existing ones, or expanding into new markets, we are constantly looking for ways to make Facebook a more valuable and enjoyable experience for our users. At the same time, being a Facebook developer also comes with a great deal of responsibility. We must be vigilant in protecting the platform from hackers, misinformation, and other threats to user security and privacy. We are constantly working to stay ahead of the curve, ensuring that Facebook remains a safe and secure environment for our users.",
+          "img": "project2-img3.png"
+        },
+        {
+          "id": "4",
+          "content": "Overall, working as a Facebook developer is an exciting and rewarding experience, one that requires a deep commitment to both innovation and responsibility.",
+          "img": "project2-img4.png"
+        }
+      ],
+      "except": "The marketing team leader of Facebook for 2 years, from 2019 to 2021.",
       "img": "facebook.png",
-      "projectLink": "github.com"
+      "projectLink": "github.com",
+      "createAt": "12/09/2022",
+      "projectCategoryId": "1"
     },
     {
       "id": "6",
       "name": "Instagram",
-      "content": "Working as a tester at Instagram for 6 months in 2022.",
+      "content": [
+        {
+          "id": "1",
+          "content": "As a fresher at Instagram, I am thrilled to be part of a company that has transformed the way people share and experience visual content. Instagram has become a major player in the social media landscape, with over a billion users worldwide, and I am excited to be part of a team that is creating new and innovative ways for people to connect and express themselves.",
+          "img": "project3-img1.png"
+        },
+        {
+          "id": "2",
+          "content": "As a new employee, I am aware of the steep learning curve ahead of me, but I am eager to dive in and start contributing to the company's mission. Instagram is known for its innovative and user-focused culture, and I am confident that this will be an ideal environment for me to grow and learn as a developer.",
+          "img": "project3-img2.png"
+        },
+        {
+          "id": "3",
+          "content": "One of the most exciting aspects of working at Instagram is the company's commitment to innovation. From launching new features to developing cutting-edge technology, Instagram is constantly pushing the boundaries of what is possible in the world of social media. As a developer, I am eager to be part of this process, helping to bring new ideas to life and enhance the user experience.",
+          "img": "project3-img3.png"
+        },
+        {
+          "id": "4",
+          "content": "At the same time, I know that working at Instagram also comes with a great deal of responsibility. As a social media platform, Instagram has the power to influence people's lives and shape the way they see the world. As a fresher, I am committed to learning from my more experienced colleagues, and working together to create a platform that is safe, inclusive, and respectful to all.",
+          "img": "project3-img4.png"
+        }
+      ],
+      "except": "Working as a tester at Instagram for 6 months in 2022.",
       "img": "instagram.png",
-      "projectLink": "github.com"
+      "projectLink": "github.com",
+      "createAt": "12/3/2022",
+      "projectCategoryId": "2"
     },
     {
       "name": "Space X",
-      "content": "Best space company in the world, fulfiling my childhood dream.",
+      "content": [
+        {
+          "id": "1",
+          "content": "Tailwind CSS is a popular utility-first CSS framework that has gained a lot of traction in recent years. Unlike other CSS frameworks that offer pre-designed components and styles, Tailwind provides a set of pre-defined utility classes that can be used to quickly style HTML elements and create custom designs.",
+          "img": "project4-img1.png"
+        },
+        {
+          "id": "2",
+          "content": "The unique approach of Tailwind CSS is that it encourages the use of reusable utility classes, such as text-center, bg-gray-200, and rounded-lg, rather than writing custom CSS styles for each individual element. This makes it much faster and easier to create complex layouts and styles without having to write a lot of custom CSS code.",
+          "img": "project4-img2.png"
+        },
+        {
+          "id": "3",
+          "content": "Tailwind CSS also offers a responsive design system that allows developers to create designs that work across different devices and screen sizes. By using a combination of responsive utility classes and breakpoints, it is possible to create designs that are optimized for different screen sizes and orientations.",
+          "img": "project4-img3.png"
+        },
+        {
+          "id": "4",
+          "content": "Another advantage of Tailwind CSS is its modularity and customizability. Developers can easily customize the colors, typography, and other design elements to create a unique look and feel for their project. And by using PurgeCSS, it is possible to optimize the size of the CSS file and remove any unused styles.",
+          "img": "project4-img4.png"
+        }
+      ],
+      "except": "Best space company in the world, fulfiling my childhood dream.",
       "img": "spacex.png",
       "id": "QLedVKM",
-      "projectLink": "github.com"
+      "projectLink": "github.com",
+      "createAt": "20/1/2023",
+      "projectCategoryId": "2"
     }
   ],
   "menuList": [
     {
+      "id": "1",
       "path": "/",
       "name": "Home"
     },
     {
+      "id": "2",
       "path": "/about",
       "name": "About"
     },
     {
+      "id": "3",
       "path": "/projects",
       "name": "Projects"
     },
     {
+      "id": "4",
       "path": "/posts",
       "name": "Posts"
     },
     {
+      "id": "5",
       "path": "/contact",
       "name": "Contact"
     }
@@ -108,15 +299,25 @@
   "categories": [
     {
       "id": "1",
-      "name": "Life's styles"
+      "name": "Coding",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' class='w-6 h-6'> <path fill-rule='evenodd' d='M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z' clip-rule='evenodd' /></svg>"
     },
     {
       "id": "2",
-      "name": "Coding"
+      "name": "Life",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' class='w-6 h-6'> <path d='M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z' /></svg>"
+    }
+  ],
+  "projectCategories": [
+    {
+      "id": "1",
+      "name": "Coding",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' class='w-6 h-6'> <path fill-rule='evenodd' d='M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z' clip-rule='evenodd' /></svg>"
     },
     {
-      "name": "banh mi co ngon k?",
-      "id": "SGS2aPA"
+      "id": "2",
+      "name": "Project Life",
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' class='w-6 h-6'> <path d='M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z' /></svg>"
     }
   ],
   "about": {
@@ -142,6 +343,8 @@
     "avatar": "avatar.png",
     "email": "tran20011234@gmail.com",
     "goalTitle": "Things I’ve made trying to put my dent in the universe.",
-    "goalContent": "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+    "goalContent": "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.",
+    "postPageTitle": "I’ve spoken at events all around the world and been interviewed for many podcasts.",
+    "postPageContent": "One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
   }
 }

@@ -17,15 +17,15 @@ const AdminEditCategoryPage = ({ id }) => {
   useEffect(() => {
     const form = document.getElementById("form-edit");
     const categoryName = document.getElementById("category-name");
-
+    const categoryIcon = document.getElementById("category-icon")
     form.addEventListener("submit", (e) => {
       e.preventDefault();
       // tạo ra 1 object mới lấy dữ liệu từ form
       const formData = {
         id,
         name: categoryName.value,
+        icon: categoryIcon.value,
       };
-
       updateCategory(formData).then(() => {
         history.replaceState({}, null, "/#/admin/categories");
         router.resolve();
@@ -42,10 +42,18 @@ const AdminEditCategoryPage = ({ id }) => {
         <h2 class="text-lg font-medium mb-4">Edit Project</h2>
         <div class="mb-4">
             <label class="block text-gray-700 font-medium mb-2" for="title">
-            Post's Title
+            Category's Name
             </label>
             <input id="category-name" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-cyan-500" id="title" type="text" value="${
               category.name
+            }">
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 font-medium mb-2" for="title">
+            Category's Icon
+            </label>
+            <input id="category-icon" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-cyan-500" id="title" type="text" value="${
+              category.icon
             }">
         </div>
         <div class="flex items-center justify-end">
